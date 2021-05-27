@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    margin-top: 40px;
+    width: 360px;
+    height: 500px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+.display
+{
+    height: 76px;
+    width: 100%;
+    text-align: center;
+    background: gray;
+    padding: 4px;
+    border-radius: 4px;
+}
+.display > input
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    cursor: none;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: end;
+    padding: 6px;
+    background-color: rgb(243, 235, 223);
+}
+.sub-container
+{
+    width: 100%;
+    margin-top: 10px;
+    background-color: aquamarine;
+    padding: 4px;
+    display: flex;
+    border-radius: 0 0 4px 4px;
+}
+.numbers
+{                               
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub-container > .numbers > input
+{
+    width: 66px;
+    height: 66px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+}
+.operator
+{
+     width: 66px;
+}
+.operator > input
+{
+    width: 66px;
+    height: 66px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+}
+.rest
+{
+    width: 66px;
+}
+.rest > input
+{
+    width: 66px;
+    height: 66px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+}
+.author
+{
+    margin-top: 10px;
+    text-align: end;
+    padding: 5px;
+    background-color: rgb(190, 190, 190);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
